@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>button display</title>
+</head>
+<body>
+	<script>
+		function open() {
+			x = document.getElementById("demo");
+			x.style.display = "block";
+		}
+		function close() {
+			x = document.getElementById("demo");
+			x.style.display = "none";
+		}
+	</script>
+	<p id="demo">Click me to change my HTML content (innerHTML).</p>
+	<p>This shouldnt disappear</p>
+	<button onclick="open()">open button</button>
+	<button onclick="close()">close button</button>
+
+	
+
+
+</body>
+</html>
